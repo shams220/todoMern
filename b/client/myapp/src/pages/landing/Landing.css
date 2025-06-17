@@ -1,0 +1,67 @@
+.landingPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 600px;
+}
+.leftSection{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.mainText{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+    
+}
+.finally{
+     font-size: 40px;
+    color: #ff5a99;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.rightSection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    padding: 20px;
+}
+.rightSection img{
+    width: 600px;
+}
+.loginBtn{
+    background-color: #ff5a99;
+    text-decoration: none;
+width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.registerBtn{
+background-color: #9f62c1;
+    text-decoration: none;
+    width: 100px ;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
